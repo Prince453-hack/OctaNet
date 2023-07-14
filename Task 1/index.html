@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tektur:wght@400;500;600;700;800&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="onmousedown="return false" onselectstart="return false"">
+    <header class="header">
+      <nav id="menu">
+        <input
+          type="checkbox"
+          id="responsive-menu"
+          onclick="updatemenu()"
+        /><label></label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a class="dropdown-arrow" href="#">Products</a>
+            <ul class="sub-menus">
+              <li><a href="#">Products 1</a></li>
+              <li><a href="#">Products 2</a></li>
+              <li><a href="#">Products 3</a></li>
+              <li><a href="#">Products 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a class="dropdown-arrow" href="#">Services</a>
+            <ul class="sub-menus">
+              <li><a href="#">Services 1</a></li>
+              <li><a href="#">Services 2</a></li>
+              <li><a href="#">Services 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="headings">
+        <h1 class="primary-heading">Shoewreck</h1>
+        <p class="primary-secondary">Where it doesn't wreck</p>
+      </div>
+    </header>
+
+    <div class="container-1">
+      <svg>
+        <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+          Premium Shoes
+        </text>
+      </svg>
+    </div>
+
+    <div class="container-2">
+      <button class="testbutton">Sign Up</button>
+      <button class="testbutton">Sign In</button>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-items">
+        <img src="images/shoe-1.jpg" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          dolorum voluptatem eos hic voluptatibus doloremque tempore dolorem
+          nobis fugiat cupiditate veritatis porro incidunt ex voluptate
+          similique, at iure eveniet quae?
+        </p>
+      </div>
+      <div class="flex-items">
+        <img src="images/shoe-2.jpg" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          dolorum voluptatem eos hic voluptatibus doloremque tempore dolorem
+          nobis fugiat cupiditate veritatis porro incidunt ex voluptate
+          similique, at iure eveniet quae?
+        </p>
+      </div>
+      <div class="flex-items">
+        <img src="images/shoe-3.jpg" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+          dolorum voluptatem eos hic voluptatibus doloremque tempore dolorem
+          nobis fugiat cupiditate veritatis porro incidunt ex voluptate
+          similique, at iure eveniet quae?
+        </p>
+      </div>
+    </div>
+
+    <div class="glitch-wrapper">
+      <div class="glitch" data-text="Shop Now">Shop Now</div>
+    </div>
+
+    <div class="container-4">
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img
+            src="images/gallery-1.jpg"
+            alt="Gallery image 1"
+            class="gallery__img"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img
+            src="images/gallery-2.jpg"
+            alt="Gallery image 2"
+            class="gallery__img"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img
+            src="images/gallery-3.jpg"
+            alt="Gallery image 3"
+            class="gallery__img"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img
+            src="images/gallery-4.jpg"
+            alt="Gallery image 4"
+            class="gallery__img"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+          <img
+            src="images/gallery-5.jpg"
+            alt="Gallery image 5"
+            class="gallery__img"
+          />
+        </figure>
+        <figure class="gallery__item gallery__item--6">
+          <img
+            src="images/gallery-6.jpg"
+            alt="Gallery image 6"
+            class="gallery__img"
+          />
+        </figure>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="images/logo.png" alt="Full Logo" class="footer__logo" />
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <div class="footer__copyright">
+            Build by <a href="" class="footer__link">Random</a>. Copyright
+            &copy; by Random. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Blanditiis, aperiam! Consequatur sunt quibusdam hic quod
+            expedita nulla voluptates nam nihil ut! Ab dignissimos voluptatum
+            fugit saepe quidem temporibus soluta aut.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
